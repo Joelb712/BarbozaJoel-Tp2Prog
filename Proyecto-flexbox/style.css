@@ -1,0 +1,143 @@
+body{
+    background-image: url(img/fondo.png);
+    background-position: center center;
+    background-size: cover; 
+    color: white;
+}
+nav{
+    background:linear-gradient(to right,#e312f3,#06def3);
+    border-radius: 5px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    font-size: large;
+    padding: 15px;
+    margin: 15px;
+    justify-content: center;
+}
+nav a{
+    border: 2px transparent;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: white;   
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
+    color:magenta;
+}   
+
+footer div{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+}
+footer img{
+    width:15px;
+    filter: invert(1);
+}
+#h1index{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+#h2index{
+    font-size: large;
+    text-align: center;
+}
+
+header div{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color:white
+}
+#divindex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction:row; 
+}
+
+#divimgs{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+#divcolum{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subdiv{
+    width: 400px;
+    text-align: justify;
+}
+.subdiv h1{
+    text-align: center;
+}
+#secserv{
+    text-align: center;
+}
+.textcent{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.lista{
+    list-style-type:circle;
+}
+#h1cont{
+    text-align: center;
+}
+#divform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border: 2px solid black;
+    padding: 10px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(156, 105, 134);
+    border-radius: 5px ;
+    color: black;
+}
+table{
+    background-color: rgb(36, 39, 39);
+    border-color: aliceblue;
+}
+form input{
+    border: 2px;
+    border-radius: 5px;
+    background-color:beige;
+}
+form textarea{
+    border: 5px;
+    border-radius: 5px;
+    background-color: beige;
+}
+form button{
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-self: center;
+}
+form button:hover{
+    background-color: grey;
+}
