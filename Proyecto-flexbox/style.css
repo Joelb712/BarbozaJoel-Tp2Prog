@@ -53,15 +53,36 @@ footer img{
     text-align: center;
 }
 
-header div{
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+}
+
+/* header{
     font-family:'Courier New', Courier, monospace;
     display: flex;
-    font-size: 60px;
+    font-size: 40px;
     justify-content: center;
+    margin:0;
+    padding: 0;
     flex-wrap: wrap;
     align-items: center;
-    color:white
-}
+    color:white;
+} */
+
 #divindex{
     display: flex;
     flex-wrap: wrap;
@@ -140,4 +161,16 @@ form button{
 }
 form button:hover{
     background-color: grey;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  gap: 10px 10px;
+}
+
+.item:nth-child(1),
+.item:nth-child(4) {
+  grid-column: 1 / 3;
 }
